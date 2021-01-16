@@ -54,6 +54,7 @@ float weightCalculator(float weight, int unit)
 		result = weight * 0.453592;
 	} else { return 0; }
 	
+	return result;
 }
 
 int main()
